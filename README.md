@@ -48,7 +48,7 @@ This will start the Nginx load balancer and the backend services.
 # Access the Load Balancer
 You can access the load balancer and the services using the following URLs:
 
-- For the blue service: http://blue.192.168.64.1.nip.io
-- For the green service: http://green.192.168.64.1.nip.io
-- For the conversion service: http://conversao.192.168.64.1.nip.io  
+- For the blue service: http://blue.192.168.64.1.nip.io:8080
+- For the green service: http://green.192.168.64.1.nip.io:8080
+- For the conversion service: http://conversao.192.168.64.1.nip.io:8080
 Make sure to replace 192.168.64.1 with your actual IP address if different.
